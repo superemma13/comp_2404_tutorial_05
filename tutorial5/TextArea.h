@@ -25,6 +25,7 @@ class TextArea {
         int getWidth() const;
         RGB getFill();
         RGB getBorder();
+        std::string getID();
 
         // setter functions
         void setFill(RGB fill);

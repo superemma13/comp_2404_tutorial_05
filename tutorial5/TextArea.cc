@@ -19,9 +19,10 @@ TextArea::TextArea(const TextArea& other): x(other.x), y(other.y), width(other.w
 int TextArea::getX() const { return x; }
 int TextArea::getY() const { return y; }
 int TextArea::getHeight() const { return height; }
-int TextArea::getWidth() const{ return width; }
+int TextArea::getWidth() const { return width; }
 RGB TextArea::getFill() { return fill; }
 RGB TextArea::getBorder() { return border; }
+std::string TextArea::getID() { return id; }
 
 // setter functions
 void TextArea::setFill(RGB fill) { this->fill = fill; }
